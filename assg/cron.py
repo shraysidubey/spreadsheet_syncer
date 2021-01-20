@@ -58,7 +58,7 @@ class PushCronJob(CronJobBase):
             S.work_experience = i['(IN MONTHS) What is your total work experience?']
             S.days_working_in_a_week = i['Are you comfortable working 6 days a week (with a weekday off)?']
             S.relocate_to_Mumbai = i['Are you willing to relocate to Mumbai? (This job role is for Mumbai location. If onboarded, you will be working from home initially, but once the current situation due to Covid settles down, you will have to relocate to Mumbai)']
-            S.english_communication = ['On a scale of 1-10, How do you rate yourself on your verbal english communication skills']
+            S.english_communication = i['On a scale of 1-10, How do you rate yourself on your verbal english communication skills']
             S.skills = i['Which of the following skills you have worked in (atleast 6 months)']
             S.previous_industries = i['Which of the following industries you have worked in?']
             S.post_sale_profile = i['What kind of profile would you like to work in after working in Sales/Business development?']

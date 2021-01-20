@@ -16,7 +16,7 @@ class employee(models.Model):
     work_experience = models.CharField(max_length=200)                           #IN MONTHS)
     days_working_in_a_week = models.CharField(max_length=200)
     relocate_to_Mumbai = models.CharField(max_length=200)              #(This job role is for Mumbai location. If onboarded, you'll be working from home initially, but once the current situation due to Covid settles down, you'll have to relocate to Mumbai)
-    english_communication= models.CharField(max_length=11)                     #(1-10)
+    english_communication = models.CharField(max_length=11)                     #(1-10)
     skills = models.CharField(max_length=200)                           #If_you're_a_fresher,please_mention_NA
     previous_industries = models.CharField(max_length=200)
     post_sale_profile = models.CharField(max_length=200)                                 #What kind of profile would you like to work in after working in Sales/Business development
